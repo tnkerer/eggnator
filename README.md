@@ -191,7 +191,7 @@ node uploadMetadata.js
 }
 ```
 
-You can again check out the uploaded file at:
+You can again check the uploaded file at:
 
 ```sh
 https://gateway.pinata.cloud/ipfs/{IpfsHash}

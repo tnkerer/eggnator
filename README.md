@@ -1,6 +1,4 @@
-# EGGnator
-
-![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(1).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(2).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(3).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(4).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(5).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(6).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(7).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(8).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(9).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(10).png)
+# EGGnator ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(3).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(4).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(5).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(6).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(7).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(8).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(9).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(10).png)
 
 # 🧭 Table of contents
 

@@ -1,6 +1,6 @@
-# EGGnator
+# EGGnator 
 
-![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(1).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(2).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(3).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(4).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(5).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(6).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(7).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(8).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(9).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(10).png)
+![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(3).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(4).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(5).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(6).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(7).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(8).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(9).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(10).png)
 
 # 🧭 Table of contents
 
@@ -105,7 +105,7 @@ If you want to ensure verifiability and decentralization, the argument `_tokenUR
   <img src="https://github.com/menezesphill/eggnator/blob/master/img/readme-imgs/ezgif.com-gif-maker.gif?raw=true" alt="Pinata API Key"/>
 </p>
 
-And click in `+ New Key`, create a new API Key with access to `pinFileToIPFS` and give it the name you want. Remember to save the info in the pop-up, you will be using in the next steps:
+And click in `+ New Key`, create a new API Key with access to `pinFileToIPFS` and give it the name you want. Remember to save the info in the pop-up, you will be using it in the next steps:
 
 <p align="center">
   <img src="https://github.com/menezesphill/eggnator/blob/master/img/readme-imgs/api-key.png?raw=true" alt="Pinata secret Key"/>
@@ -156,7 +156,7 @@ And also, a JSON file is created at [eggnator/img](https://github.com/menezesphi
 https://gateway.pinata.cloud/ipfs/{IpfsHash}
 ```
 
-⚠️ ATENTION: `uploadFiles.js` is configured to upload all files [eggnator/img](https://github.com/menezesphill/eggnator/tree/master/img) using a `for` loop. If you want to upload different images or a different number of images, make sure to edit `uploadFiles.js` accordingly.
+⚠️ ATENTION: `uploadFiles.js` is configured to upload all files in [eggnator/img](https://github.com/menezesphill/eggnator/tree/master/img) using a `for` loop. If you want to upload different images or a different number of images, make sure to edit `uploadFiles.js` accordingly.
 
 
 

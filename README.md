@@ -136,7 +136,7 @@ echo secrets.json >> .gitignore
 
 ### ✅ Uploading files
 
-If you look at the folder [eggnator/img](https://github.com/menezesphill/eggnator/tree/master/img) you will notice 10 images going from `file (1).png` to `file (10).png`. The script `uploadFiles.js` is configured to upload `file (1).png` using your newly created Keys from Pinata, if you configured everything correctly, you can go ahead and run:
+If you look at the folder [eggnator/img](https://github.com/menezesphill/eggnator/tree/master/img) you will notice 9 images going from `file (1).png` to `file (9).png`. The script `uploadFiles.js` is configured to upload `file (1).png` using your newly created Keys from Pinata, if you configured everything correctly, you can go ahead and run:
 
 ```jsx
 node uploadFiles.js

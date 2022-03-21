@@ -31,6 +31,7 @@ const pinFileToIPFS = async (fileNumber) => {
 };
 
 for (let i = 1; i <= 10; i++) {
-pinFileToIPFS(i);
+  let fileNumber = i;
+pinFileToIPFS(fileNumber);
 }
 

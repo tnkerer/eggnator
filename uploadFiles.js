@@ -2,12 +2,13 @@ const { pinataApiKey, pinataSecretApiKey } = require('./secrets.json');
 const axios = require("axios");
 const fs = require("fs");
 const FormData = require("form-data");
+const fileToUpload = "file (1)";
 
-const pinFileToIPFS = async (fileNumber) => {
+const pinFileToIPFS = async () => {
   const url = `https://api.pinata.cloud/pinning/pinFileToIPFS`;
   let data = new FormData();
   
-  data.append("file", fs.createReadStream(`./img/file (${fileNumber}).png`));
+  data.append("file", fs.createReadStream(`./img/${fileToUpload}.png`));
 
   const res = await axios.post(url, data, {
     maxContentLength: "Infinity", 
@@ -27,11 +28,9 @@ const pinFileToIPFS = async (fileNumber) => {
   }
 
   const jsonData = JSON.stringify(res.data)
-  fs.writeFile(`./img/file (${fileNumber}).json`, jsonData, finished)
+  fs.writeFile(`./img/${fileToUpload}.json`, jsonData, finished)
 };
 
-for (let i = 1; i <= 10; i++) {
-  let fileNumber = i;
-pinFileToIPFS(fileNumber);
-}
+pinFileToIPFS();
+
 

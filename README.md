@@ -199,3 +199,5 @@ https://gateway.pinata.cloud/ipfs/{IpfsHash}
 
 Note it is a different `IpfsHash` from the previous step. 
 
+#🍾 Minting on Testnets
+

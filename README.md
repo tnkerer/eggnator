@@ -170,9 +170,9 @@ The `METADATA` is what you actually want as an argument for `_tokenURI`. The met
 ```jsx
 {
     "name":"Brown Eggo",
-    "hash": "QmXSS5ahu9cXTkfTzUin6XrPhxbaFktURaRzX8w86wtEFx", 
+    "hash": "QmXSS5ahu9cXTkfTzUin6XrPhxbaFktURaRzX8w86wtEFx", // IpfsHash from previous step
     "gen": "0",
-    "image" : "https://gateway.pinata.cloud/ipfs/QmXSS5ahu9cXTkfTzUin6XrPhxbaFktURaRzX8w86wtEFx"
+    "image" : "https://gateway.pinata.cloud/ipfs/QmXSS5ahu9cXTkfTzUin6XrPhxbaFktURaRzX8w86wtEFx" // Ipfs link generated in previous step
   }
 ```
 

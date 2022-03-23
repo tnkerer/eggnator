@@ -200,7 +200,7 @@ You can again check the uploaded file at:
 https://gateway.pinata.cloud/ipfs/{IpfsHash}
 ```
 
-Note it is a different `IpfsHash` from the previous step. 
+Note it is a different `IpfsHash` from the one in [✅ Uploading files](#-uploading-files) !!!
 
 # 🍾 Minting
 

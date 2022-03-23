@@ -2,6 +2,8 @@
 
 ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(3).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(4).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(5).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(6).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(7).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(8).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(9).png) ![](https://github.com/menezesphill/eggnator/blob/master/img/file%20(10).png)
 
+A huge thanks to [Atelier Pixerelia](https://itch.io/profile/pixerelia) for the amazing assets!
+
 # 🧭 Table of contents
 
 - [🧭 Table of contents](#-table-of-contents)
@@ -11,6 +13,7 @@
 - - [Getting started with Pinata](#-getting-started-with-pinata)
   - [Uploading Files](#-uploading-files)
   - [Uploading Metadata](#-uploading-metadata)
+- [🍾 Minting](#-minting)
 
 # 🚀 Quick Start
 
@@ -199,5 +202,45 @@ https://gateway.pinata.cloud/ipfs/{IpfsHash}
 
 Note it is a different `IpfsHash` from the previous step. 
 
-#🍾 Minting on Testnets
+# 🍾 Minting
+
+Try ou minting your new ERC721 using truffle. On your project folder, run:
+
+```sh
+truffle migration --network development
+```
+
+And run truffle console:
+
+```sh
+truffle console --network development
+```
+
+On truffle console, instantiate the Eggnator contract you just created and then use the mint method:
+
+```sh
+contract = await Eggnator.deployed()
+contract.mint(accounts[0], "https://gateway.pinata.cloud/ipfs/{IpfsHash_from_Metadata_file}")
+```
+
+You can check if the tokenURI is correctly set by calling the methods `tokenURI(_tokenID)`
+
+```sh
+contract.tokenURI("1")
+```
+
+You should see your IPFS CID:
+
+
+```sh
+'https://gateway.pinata.cloud/ipfs/{IpfsHash_from_Metadata_file}'
+```
+
+You can also deploy to different testnets. If you deploy to `Rinkeby`, for example, you will be able to see your collection on [OpenSea Testnet](https://testnets.opensea.io/) and [Rarible on Rinkeby](https://rinkeby.rarible.com/):
+
+<p align="center">
+  <img src="https://github.com/menezesphill/eggnator/blob/master/img/readme-imgs/open-sea-test.png?raw=true" alt="Eggnator on OpenSea"/>
+</p>
+
+For more details on deploying on different testnets using Truffle, [THIS](https://www.geeksforgeeks.org/deploying-smart-contract-on-test-main-network-using-truffle/) article can help you out!
 

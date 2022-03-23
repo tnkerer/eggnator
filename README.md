@@ -176,7 +176,7 @@ The `METADATA` is what you actually want as an argument for `_tokenURI`. The met
   }
 ```
 
-You can add whatever metadata you'd like, but "name", "hash" and "image" have to be there if you want your ERC721 token to be displayed correctly on [OpenSea](https://opensea.io/) or any other marketplaces. 
+You can add whatever metadata you'd like, but "name", "hash" and "image" have to be there if you want your ERC721 token to be displayed correctly on [OpenSea](https://opensea.io/) or any other marketplace. 
 
 Upload the metadata by using:
 

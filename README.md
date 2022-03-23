@@ -74,7 +74,7 @@ Make sure to change `NETWORK ID` and `RPC SERVER` info in your `truffle-config.j
    }
 ```
 
-⚠️ ATENTION: If you are using a `WSL instance`, you might need to configure the correct network on Ganache in order to deploy to the testnet.
+⚠️ ATENTION: If you are using a `WSL instance`, you might need to configure the Ethernet virtual network on Ganache in order to deploy to the testnet.
 
 When you are good to go, you can go ahead and:
 

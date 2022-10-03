@@ -17,7 +17,7 @@ A huge thanks to [Atelier Pixerelia](https://itch.io/profile/pixerelia) for the 
 
 # 🚀 Quick Start
 
-✅ Clone or fork `vestingVault`:
+✅ Clone or fork `eggnator`:
 
 ```sh
 git clone https://github.com/menezesphill/eggnator.git
